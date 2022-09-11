@@ -1,0 +1,30 @@
+
+
+u32  main();
+u0   puts(u8 *cstr);
+u32  add(u32 a, u32 b);
+u32  sub(u32 a, u32 b);
+
+
+fn u32 main()
+    
+    u32 a;
+    u32 b;
+    
+    b = add(a, b);
+    ret 4;
+end
+
+fn u32 add(u32 a, u32 b)
+    ret (a + b);
+end
+
+fn u32 sub(u32 a, u32 b)
+    ret (a - b);
+end
+
+fn u32 mul(u32 a, u32 b)
+    ret(a * b);
+end
+
+
